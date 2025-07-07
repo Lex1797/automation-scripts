@@ -1,0 +1,31 @@
+# Основные зависимости
+python>=3.10
+aiohttp>=3.8.0
+beautifulsoup4>=4.11.0
+pandas>=1.5.0
+filetype>=1.2.0
+python-dateutil>=2.8.0
+tqdm>=4.0.0
+python-dotenv>=0.20.0
+
+# Для PDF обработки
+pdfplumber>=0.7.0
+PyPDF2>=2.0.0
+
+# Для работы с изображениями
+Pillow>=9.0.0
+piexif>=1.1.0
+
+# Для веб-автоматизации
+selenium>=4.0.0
+playwright>=1.25.0
+webdriver-manager>=3.8.0
+
+# Для API интеграций
+google-api-python-client>=2.0.0
+oauth2client>=4.1.0
+slack-sdk>=3.0.0
+
+# Для системных утилит
+psutil>=5.9.0
+pywin32>=300; sys_platform == 'win32'
